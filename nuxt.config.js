@@ -27,11 +27,11 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/css/animate.min.css" },
         { rel: "stylesheet", href: "/assets/css/imageRevealHover.css" },
         { rel: "stylesheet", href: "/assets/css/style.css" },
+        { rel: "icon", href: "https://cdn-hx.ssl-files.holduix.dev/assets/logo/favicon.png", type: "image/png" },
       ],
-      script: [
+      script: [/*
         {
-          src: "https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js",
-          body: false,
+          src: "https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
         },
         {
           hid: "scrollreveal-init",
@@ -44,9 +44,8 @@ export default defineNuxtConfig({
 						document.documentElement.classList.add('js');
 					`,
           type: "text/javascript",
-          charset: "utf-8",
-          body: false,
-        },
+          charset: "utf-8"
+        }, */
         { src: "/assets/js/vendor/jquery-3.6.0.min.js", body: true },
         { src: "assets/js/slick.min.js", body: true },
         { src: "assets/js/bootstrap.min.js", body: true },

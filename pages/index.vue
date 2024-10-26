@@ -17,12 +17,12 @@
                             </div>
                             <div class="col-lg-5 align-self-end text-lg-end">
                                 <div class="text-lg-end" data-ani="slideindown" data-ani-delay="0.3s">
-                                    <a class="circle-btn style2 btn bg-theme gsap-magnetic" href="#">
+                                    <NuxtLink class="circle-btn style2 btn bg-theme gsap-magnetic" to="/contact">
                                         <span class="link-effect">
                                             <span class="effect-1">LET'S TALK <br> WITH US</span>
                                             <span class="effect-1">LET'S TALK <br> WITH US</span>
                                         </span>
-                                    </a>
+                                    </NuxtLink>
                                 </div>
                             </div>
                         </div>
@@ -44,12 +44,12 @@
                             </div>
                             <div class="col-lg-5 align-self-end text-lg-end">
                                 <div class="text-lg-end" data-ani="slideindown" data-ani-delay="0.3s">
-                                    <a class="circle-btn style2 btn bg-theme gsap-magnetic" href="#">
+                                    <NuxtLink class="circle-btn style2 btn bg-theme gsap-magnetic" to="/contact">
                                         <span class="link-effect">
                                             <span class="effect-1">LET'S TALK <br> WITH US</span>
                                             <span class="effect-1">LET'S TALK <br> WITH US</span>
                                         </span>
-                                    </a>
+                                    </NuxtLink>
                                 </div>
                             </div>
                         </div>
@@ -103,12 +103,12 @@
                                     <h2 class="sec-title text-smoke">Your Strategic Consulting Partner.</h2>
                                     <p class="sec-text mt-35 mb-25 text-smoke">Congo Advisory & Business Consulting is a consulting firm specializing in finance, operations, and strategy. We support CEOs, investors, banks, international organizations, and government bodies in their various decisions and projects such as transactions, restructurings, transformations, and fundraising. Whether on a one-time or recurring basis, we help organizations think strategically about regulatory changes and their impacts, and implement the most efficient systems.</p>
                                     <div class="btn-wrap mt-50">
-                                        <a href="#" class="btn style2">
+                                        <NuxtLink to="/about" class="btn style2">
                                             <span class="link-effect">
                                                 <span class="effect-1">ABOUT US</span>
                                                 <span class="effect-1">ABOUT US</span>
                                             </span>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -127,12 +127,12 @@
                                     <h2 class="sec-title text-smoke">Our Services</h2>
                                     <p class=" text-smoke">At Congo Advisory & Business Consulting, we offer a comprehensive suite of services designed to empower your business. Whether you're navigating complex transactions, driving transformational change, or seeking to enhance your ESG practices, our expert team provides the insights and strategies you need to succeed.</p>
                                     <div class="btn-wrap mt-20">
-                                        <a href="#" class="btn style2">
+                                        <NuxtLink to="/services" class="btn style2">
                                             <span class="link-effect">
                                                 <span class="effect-1">OUR SERVICES</span>
                                                 <span class="effect-1">OUR SERVICES</span>
                                             </span>
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -147,16 +147,16 @@
                                     </div>
                                     <div class="feature-card-details">
                                         <h4 class="feature-card-title">
-                                            <a href="service.html">FINANCIAL SERVICES</a>
+                                            <NuxtLink to="/services">FINANCIAL SERVICES</NuxtLink>
                                         </h4>
                                         <p class="feature-card-text">We work with all type of regulated institutions, both banking and institutional on strategic assignments related to the introduction of new regulations.</p>
-                                        <a href="#" class="link-btn">
+                                        <NuxtLink to="/services" class="link-btn">
                                             <span class="link-effect">
                                                 <span class="effect-1">VIEW DETAILS</span>
                                                 <span class="effect-1">VIEW DETAILS</span>
                                             </span>
                                             <img src="/assets/img/icon/arrow-left-top.svg" alt="icon">
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -167,16 +167,16 @@
                                     </div>
                                     <div class="feature-card-details">
                                         <h4 class="feature-card-title">
-                                            <a href="service.html">TRANSACTION SERVICES</a>
+                                            <NuxtLink to="/services">TRANSACTION SERVICES</NuxtLink>
                                         </h4>
                                         <p class="feature-card-text">Prior to an acquisition, we carry out reports to refine your understanding of the target company or assets to be acquired. We identify risks and any red flags associated with the transaction.</p>
-                                        <a href="#" class="link-btn">
+                                        <NuxtLink to="/services" class="link-btn">
                                             <span class="link-effect">
                                                 <span class="effect-1">VIEW DETAILS</span>
                                                 <span class="effect-1">VIEW DETAILS</span>
                                             </span>
                                             <img src="/assets/img/icon/arrow-left-top.svg" alt="icon">
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -187,16 +187,16 @@
                                     </div>
                                     <div class="feature-card-details">
                                         <h4 class="feature-card-title">
-                                            <a href="service.html">TRANSFORMATION</a>
+                                            <NuxtLink to="/services">TRANSFORMATION</NuxtLink>
                                         </h4>
                                         <p class="feature-card-text">We support finance departments in their transformation programs to adapt their organization, processes and tools to the company's business challenges, and to the expectations of top management and shareholders alike.</p>
-                                        <a href="#" class="link-btn">
+                                        <NuxtLink to="/services" class="link-btn">
                                             <span class="link-effect">
                                                 <span class="effect-1">VIEW DETAILS</span>
                                                 <span class="effect-1">VIEW DETAILS</span>
                                             </span>
                                             <img src="/assets/img/icon/arrow-left-top.svg" alt="icon">
-                                        </a>
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
@@ -267,3 +267,11 @@
             </div>
         </div>    
 </template>
+<script setup lang="ts">
+    useHead({
+        title: 'Home - Congo Advisory & Business Consulting',
+        meta: [
+            { name: 'description', content: 'Congo Advisory & Business Consulting' }
+        ]
+    })
+</script>

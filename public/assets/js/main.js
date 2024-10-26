@@ -829,4 +829,4 @@ ScrollReveal().reveal('.headline-2', {
 ScrollReveal().reveal('.headline-2:first-child', {
     delay: 0,
     interval: 80
-}); */
+});*/

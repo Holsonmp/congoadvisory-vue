@@ -18,12 +18,12 @@
                         </div>
                         <div class="col-lg-5 align-self-end text-lg-end">
                             <div class="text-lg-end" data-ani="slideindown" data-ani-delay="0.3s">
-                                <a class="circle-btn style2 btn bg-theme gsap-magnetic" href="#">
+                                <NuxtLink class="circle-btn style2 btn bg-theme gsap-magnetic" to="/contact">
                                     <span class="link-effect">
                                         <span class="effect-1">LET'S TALK <br> WITH US</span>
                                         <span class="effect-1">LET'S TALK <br> WITH US</span>
                                     </span>
-                                </a>
+                                </NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -55,12 +55,12 @@
                                     relentless pursuit of excellence, fueled by our desire to make a meaningful
                                     difference for our clients.</p>
                                 <div class="btn-wrap mt-50">
-                                    <a href="#" class="btn style2">
+                                    <NuxtLink to="/contact" class="btn style2">
                                         <span class="link-effect">
                                             <span class="effect-1">LET'S TALK WITH US</span>
                                             <span class="effect-1">LET'S TALK WITH US</span>
                                         </span>
-                                    </a>
+                                    </NuxtLink>
                                 </div>
                             </div>
                         </div>
@@ -124,12 +124,12 @@
                                     Advisory & Business Consulting, we are committed to making a lasting impact, not
                                     only on the businesses we serve but also on the broader economic landscape.</p>
                                 <div class="btn-wrap mt-50">
-                                    <a href="#" class="btn style2">
+                                    <NuxtLink to="/contact" class="btn style2">
                                         <span class="link-effect">
                                             <span class="effect-1">LET'S TALK WITH US</span>
                                             <span class="effect-1">LET'S TALK WITH US</span>
                                         </span>
-                                    </a>
+                                    </NuxtLink>
                                 </div>
                             </div>
                         </div>
