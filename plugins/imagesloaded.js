@@ -1,9 +1,10 @@
+// plugins/imagesLoaded.js
+import imagesLoaded from 'imagesloaded';
+import jQuery from 'jquery';
+
 export default defineNuxtPlugin(() => {
-    if (process.client) {
-      const script = document.createElement('script');
-      script.src = '/assets/js/imagesloaded.pkgd.min.js';
-      script.async = true;
-      document.head.appendChild(script);
-    }
-  });
-  
+  if (process.client) {
+    window.$ = window.jQuery = jQuery;
+    $.fn.imagesLoaded = imagesLoaded;
+  }
+});

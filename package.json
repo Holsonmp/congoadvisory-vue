@@ -12,6 +12,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "imagesloaded": "^5.0.0",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
