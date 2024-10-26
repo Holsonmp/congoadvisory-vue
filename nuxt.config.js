@@ -1,6 +1,4 @@
 export default defineNuxtConfig({
-  mode: "client",
-
   app: {
     head: {
       meta: [
