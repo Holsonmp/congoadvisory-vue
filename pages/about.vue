@@ -241,3 +241,11 @@
     </div>
 
 </template>
+<script setup lang="ts">
+useHead({
+  title: 'About us - Congo Advisory & Business Consulting',
+  meta: [
+    { name: 'description', content: 'Congo Advisory & Business Consulting' }
+  ]
+})
+</script>

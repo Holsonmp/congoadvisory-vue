@@ -149,8 +149,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <NuxtLink to="/"><img src="/assets/img/logo-white.png" width="250" alt="logo">
-                                </NuxtLink>
+                                <NuxtLink to="/"><img src="/assets/img/logo-white.png" width="250" alt="logo"></NuxtLink>
                             </div>
                         </div>
                         <div class="col-auto m-lg-auto">

@@ -375,3 +375,11 @@
         </div>
     </div>
 </template>
+<script setup lang="ts">
+useHead({
+  title: 'Services - Congo Advisory & Business Consulting',
+  meta: [
+    { name: 'description', content: 'Congo Advisory & Business Consulting' }
+  ]
+})
+</script>
