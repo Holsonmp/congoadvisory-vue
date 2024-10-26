@@ -750,19 +750,7 @@
 
     /*===========================================
         =        Price Slider         =
-    =============================================*/
-    $(".price_slider").slider({
-        range: true,
-        min: 0,
-        max: 200,
-        values: [20, 130],
-        slide: function (event, ui) {
-          $(".from").text("$" + ui.values[0]);
-          $(".to").text("$" + ui.values[1]);
-        }
-      });
-    $(".from").text("$" + $(".price_slider").slider("values", 0));
-    $(".to").text("$" + $(".price_slider").slider("values", 1));
+    =============================================
 
     /*===========================================
         =        Quantity         =
@@ -804,7 +792,7 @@
     
     /*===========================================
         =        Project-slider-showcase         =
-    =============================================*/
+    =============================================
     jQuery(function () {
         const slider = jQuery(".project-slider-showcase");
         slider;
@@ -818,7 +806,7 @@
             jQuery(this).slick("slickPrev");
           }
         });
-    });
+    });*/
 })(jQuery);
 
 ScrollReveal().reveal('.headline', {
