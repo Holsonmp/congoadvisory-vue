@@ -32,12 +32,13 @@ export default defineNuxtConfig({
       ],
     },
     loading: { color: "#0d4ea1", height: "4px" },
+    script: [{ src: '/assets/js/vendor/jquery-3.6.0.min.js', body: true },]
   },
 
 
   plugins: [
-    { src: '~/plugins/scrollreveal.js', mode: 'client' },
     { src: '~/plugins/jquery.js', mode: 'client' },
+    { src: '~/plugins/scrollreveal.js', mode: 'client' },
     { src: '~/plugins/slick.js', mode: 'client' },
     { src: '~/plugins/bootstrap.js', mode: 'client' },
     { src: '~/plugins/magnific-popup.js', mode: 'client' },

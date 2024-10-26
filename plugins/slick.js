@@ -5,5 +5,5 @@ export default defineNuxtPlugin(() => {
       script.async = true;
       document.head.appendChild(script);
     }
-  });
+});
   
