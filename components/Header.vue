@@ -149,7 +149,7 @@
                                 <nav class="main-menu d-none d-lg-inline-block">
                                     <ul>
                                         <li>
-                                            <NuxtLink to="/" class="active">
+                                            <NuxtLink to="/" >
                                                 <span class="link-effect">
                                                     <span class="effect-1">HOME</span>
                                                     <span class="effect-1">HOME</span>
