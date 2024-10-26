@@ -30,7 +30,7 @@ export default defineNuxtConfig({
       ],
     },
     loading: { color: "#0d4ea1", height: "4px" },
-    script: [{ src: '/assets/js/vendor/jquery-3.6.0.min.js', body: true },]
+    script: [{ src: '/assets/js/main.js', body: true },]
   },
 
 
