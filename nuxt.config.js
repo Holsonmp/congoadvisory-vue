@@ -28,30 +28,64 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/assets/css/imageRevealHover.css" },
         { rel: "stylesheet", href: "/assets/css/style.css" },
       ],
+      script: [
+        {
+          src: "https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js",
+          body: false,
+        },
+        {
+          hid: "scrollreveal-init",
+          innerHTML: `
+						ScrollReveal({
+							scale: 0.85,
+							duration: 1000,
+						});
+						document.documentElement.classList.remove('no-js');
+						document.documentElement.classList.add('js');
+					`,
+          type: "text/javascript",
+          charset: "utf-8",
+          body: false,
+        },
+        { src: "/assets/js/vendor/jquery-3.6.0.min.js", body: true },
+        { src: "assets/js/slick.min.js", body: true },
+        { src: "assets/js/bootstrap.min.js", body: true },
+        { src: "assets/js/jquery.magnific-popup.min.js", body: true },
+        { src: "assets/js/jquery.counterup.min.js", body: true },
+        { src: "assets/js/imagesloaded.pkgd.min.js", body: true },
+        { src: "/assets/js/isotope.pkgd.min.js", body: true },
+        { src: "/assets/js/gsap.min.js", body: true },
+        { src: "/assets/js/twinmax.js", body: true },
+        { src: "/assets/js/imageRevealHover.js", body: true },
+        { src: "/assets/js/jarallax.min.js", body: true },
+        { src: "/assets/js/jquery.marquee.min.js", body: true },
+        { src: "/assets/js/jquery-ui.min.js", body: true },
+        { src: "/assets/js/waypoints.js", body: true },
+        { src: "/assets/js/wow.js", body: true },
+        { src: "/assets/js/main.js", body: true },
+      ],
     },
+
     loading: { color: "#0d4ea1", height: "4px" },
-    script: [{ src: '/assets/js/main.js', body: true },]
   },
-
-
-  plugins: [
-    { src: '~/plugins/jquery.js', mode: 'client' },
-    { src: '~/plugins/slick.js', mode: 'client' },
-    { src: '~/plugins/scrollreveal.js', mode: 'client' },
-    { src: '~/plugins/bootstrap.js', mode: 'client' },
-    { src: '~/plugins/magnific-popup.js', mode: 'client' },
-    { src: '~/plugins/counterup.js', mode: 'client' },
-    { src: '~/plugins/isotope.js', mode: 'client' },
-    { src: '~/plugins/gsap.js', mode: 'client' },
-    { src: '~/plugins/twinmax.js', mode: 'client' },
-    { src: '~/plugins/imageRevealHover.js', mode: 'client' },
-    { src: '~/plugins/jarallax.js', mode: 'client' },
-    { src: '~/plugins/jquery-marquee.js', mode: 'client' },
-    { src: '~/plugins/jquery-ui.js', mode: 'client' },
-    { src: '~/plugins/waypoints.js', mode: 'client' },
-    { src: '~/plugins/wow.js', mode: 'client' },
-    { src: '~/plugins/main.js', mode: 'client' }
-  ],
-
-  compatibilityDate: '2024-10-26',
+  
+  /*
+	plugins: [
+		{ src: '~/plugins/slick.js', mode: 'client' },
+		{ src: '~/plugins/scrollreveal.js', mode: 'client' },
+		{ src: '~/plugins/bootstrap.js', mode: 'client' },
+		{ src: '~/plugins/magnific-popup.js', mode: 'client' },
+		{ src: '~/plugins/counterup.js', mode: 'client' },
+		{ src: '~/plugins/isotope.js', mode: 'client' },
+		{ src: '~/plugins/gsap.js', mode: 'client' },
+		{ src: '~/plugins/twinmax.js', mode: 'client' },
+		{ src: '~/plugins/imageRevealHover.js', mode: 'client' },
+		{ src: '~/plugins/jarallax.js', mode: 'client' },
+		{ src: '~/plugins/jquery-marquee.js', mode: 'client' },
+		{ src: '~/plugins/jquery-ui.js', mode: 'client' },
+		{ src: '~/plugins/waypoints.js', mode: 'client' },
+		{ src: '~/plugins/wow.js', mode: 'client' }
+	],
+*/
+  compatibilityDate: "2024-10-26",
 });

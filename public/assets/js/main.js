@@ -808,7 +808,7 @@
         });
     });*/
 })(jQuery);
-
+/*
 ScrollReveal().reveal('.headline', {
     delay: 600,
     useDelay: 'onload',
@@ -829,4 +829,4 @@ ScrollReveal().reveal('.headline-2', {
 ScrollReveal().reveal('.headline-2:first-child', {
     delay: 0,
     interval: 80
-});
+}); */
