@@ -36,8 +36,8 @@ export default defineNuxtConfig({
 
   plugins: [
     { src: '~/plugins/jquery.js', mode: 'client' },
-    { src: '~/plugins/scrollreveal.js', mode: 'client' },
     { src: '~/plugins/slick.js', mode: 'client' },
+    { src: '~/plugins/scrollreveal.js', mode: 'client' },
     { src: '~/plugins/bootstrap.js', mode: 'client' },
     { src: '~/plugins/magnific-popup.js', mode: 'client' },
     { src: '~/plugins/counterup.js', mode: 'client' },

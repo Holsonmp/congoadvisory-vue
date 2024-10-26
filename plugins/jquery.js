@@ -1,8 +1,9 @@
 // plugins/jquery.js
 import jQuery from 'jquery';
+import { defineNuxtPlugin } from '#app';
 
-export default defineNuxtPlugin(() => {
+export default defineNuxtPlugin((nuxtApp) => {
   if (process.client) {
-    window.$ = window.jQuery = jQuery; // rendre jQuery global
+    window.$ = window.jQuery = jQuery;
   }
 });
