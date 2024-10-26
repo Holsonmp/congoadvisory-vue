@@ -17,6 +17,7 @@
     "nuxt": "^3.13.2",
     "scrollreveal": "^4.0.9",
     "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1",
     "vue": "latest",
     "vue-router": "latest"
   },
